@@ -15,10 +15,10 @@ Given a function g such that g() returns a Bernoulli(p) variate, and a function 
 | --- | --- |
 | f(p) = exp(-λp), λ >= 0 | `expMinus(g, λ)` |
 | f(p) = p⁠^a, a >= 0 | `power(g, a)` |
-| f(p) = C*p / (1+C*p), C > 0 | `logistic(g, C)` |
-| f(p) = C*p, ϵ ∈ (0, 1-C*p) | `linear(g, C, ϵ)` |
+| f(p) = C\*p / (1+C\*p), C > 0 | `logistic(g, C)` |
+| f(p) = C\*p, ϵ ∈ (0, 1-C*p) | `linear(g, C, ϵ)` |
 | f(p) = C/p, ϵ ∈ (0, p-C) | `inverse(g, C, ϵ)` |
-| f(p1, p2) = C1*p1 / (C1*p1 + C2*p2) | `twocoin(g1, g2, C1, C2, ϵ)` |
+| f(p1, p2) = C1\*p1 / (C1\*p1 + C2\*p2) | `twocoin(g1, g2, C1, C2)` |
 
 ### Constrained, unbiased estimation
 
