@@ -1,5 +1,10 @@
 # BernoulliFactory.jl
 
+[![Build Status](https://travis-ci.org/awllee/BernoulliFactory.jl.svg?branch=master)](https://travis-ci.org/awllee/BernoulliFactory.jl)
+[![Build status](https://ci.appveyor.com/api/projects/status/x5w1kedalfn3f6wp/branch/master?svg=true)](https://ci.appveyor.com/project/awllee/bernoullifactory-jl/branch/master)
+[![Coverage Status](https://coveralls.io/repos/github/awllee/BernoulliFactory.jl/badge.svg?branch=master)](https://coveralls.io/github/awllee/BernoulliFactory.jl?branch=master)
+[![codecov.io](http://codecov.io/github/awllee/BernoulliFactory.jl/coverage.svg?branch=master)](http://codecov.io/github/awllee/BernoulliFactory.jl?branch=master)
+
 This package provides some Bernoulli factory algorithms, and a constrained, unbiased estimation algorithm.
 
 Given a function g such that g() returns a Bernoulli(p) variate, and a function f mapping [0,1] -> [0,1] a Bernoulli factory algorithm should use calls to g produce a Bernoulli(f(p)) variate. Not all functions f admit an algorithm (Keane & O'Brien, 1994), and some algorithms require additional information.
