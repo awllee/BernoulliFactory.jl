@@ -1,7 +1,7 @@
 # BernoulliFactory.jl
 
 <!-- badges: start -->
-[![CI](https://github.com/awllee/BernoulliFactory.jl/workflows/ci/badge.svg)](https://github.com/awllee/BernoulliFactory.jl/actions)
+[![CI](https://github.com/awllee/BernoulliFactory.jl/workflows/CI/badge.svg)](https://github.com/awllee/BernoulliFactory.jl/actions)
 [![codecov](https://codecov.io/gh/awllee/BernoulliFactory.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/awllee/BernoulliFactory.jl)
 <!-- badges: end -->
 
