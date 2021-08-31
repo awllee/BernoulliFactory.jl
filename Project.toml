@@ -1,5 +1,6 @@
 name = "BernoulliFactory"
 uuid = "6db8a038-4f45-54dc-ba78-3bf46db9883d"
+version = "0.0.2"
 
 [deps]
 NonUniformRandomVariateGeneration = "cd27a545-1e2a-5997-b51f-f9caa06aeab2"
