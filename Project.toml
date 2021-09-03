@@ -7,7 +7,7 @@ NonUniformRandomVariateGeneration = "cd27a545-1e2a-5997-b51f-f9caa06aeab2"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 
 [compat]
-NonUniformRandomVariateGeneration = "1"
+NonUniformRandomVariateGeneration = "1, 2"
 julia = "1"
 
 [extras]
